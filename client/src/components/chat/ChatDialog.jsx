@@ -1,7 +1,6 @@
 import { useContext } from 'react';
 import { Dialog, styled, Box } from '@mui/material';
 import { UserContext } from '../../context/UserProvider';
-
 //components
 import Menu from './menu/Menu';
 import ChatBox from './chat/ChatBox';
@@ -9,30 +8,26 @@ import EmptyChat from './chat/RightChat';
 
 const Component = styled(Box)`
     display: flex;
-`;
-    
+`;  
 const LeftComponent = styled(Box)`
     min-width: 450px;
-`;
-    
+`;  
 const RightComponent = styled(Box)`
     width: 73%;
     min-width: 300px;
     height: 100%;
     border-left: 1px solid rgba(0, 0, 0, 0.14);
 `;
-
 const dialogStyle = {
-    height: '95%',
+    height: '98%',
     width: '100%',
-    margin: '14px',
+    margin: '10px',
     maxWidth: '100%',
     maxHeight: '100%',
     borderRadius: 0,
     boxShadow: 'none',
     overflow: 'hidden'
 };
-
 const ChatDialog = () => {
     const { person } = useContext(UserContext);
     return (
@@ -55,5 +50,4 @@ const ChatDialog = () => {
         </Dialog>
     )
 }
-
 export default ChatDialog;

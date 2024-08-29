@@ -25,7 +25,7 @@ const ChatBox = () => {
     }, [person.sub]);
 
     return (
-        <Box style={{height: '75%'}}>
+        <Box style={{height: '60%'}}>
             <ChatHeader person={person} />
             <Messages person={person} conversation={conversation} />
         </Box>

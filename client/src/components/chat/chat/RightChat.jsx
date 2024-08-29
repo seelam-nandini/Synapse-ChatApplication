@@ -3,7 +3,7 @@ import { emptyChatImage } from '../../../constants/data';
 
 const Component = styled(Box)`
     background: #f8f9fa;
-    padding: 30px 0;
+    padding: 10px 0;
     text-align: center;
     height: 100%;
 `;
@@ -19,7 +19,7 @@ const Image = styled('img')({
    
 const Title = styled(Typography)`
 font-size: 30px;
-margin: 10px 0 10px 0;
+margin: 4px 0 4x 0;
 font-family: inherit;
 font-weight: 650;
 color: #41525d

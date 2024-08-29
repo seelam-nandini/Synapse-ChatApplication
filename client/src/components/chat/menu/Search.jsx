@@ -37,7 +37,7 @@ const Search = ({ setText }) => {
                     <SearchIcon fontSize="small"/>
                 </Icon>
                 <InputField
-                    placeholder="Search or start new chat in Synapse"
+                    placeholder="Search in Synapse"
                     inputProps={{ 'aria-label': 'search' }}
                     onChange={(e) => setText(e.target.value)}
                 />

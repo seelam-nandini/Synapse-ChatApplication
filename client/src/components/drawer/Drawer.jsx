@@ -29,7 +29,6 @@ const drawerStyle = {
     width: '33%',
     boxShadow: 'none'
   }
-
 const InfoDrawer = ({ open, setOpen, profile }) => {
 
     const handleClose = () => {

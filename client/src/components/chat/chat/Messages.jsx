@@ -12,7 +12,6 @@ const Wrapper = styled(Box)`
     background-image: url(${'https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png'});
     background-size: 50%;
 `;
-
 const StyledFooter = styled(Box)`
     height: 55px;
     background: #ededed;
@@ -34,9 +33,7 @@ const Messages = ({ person, conversation }) => {
     const [value, setValue] = useState();
     const [file, setFile] = useState();
     const [image, setImage] = useState();
-
     const scrollRef = useRef();
-
     const { account, socket, newMessageFlag, setNewMessageFlag } = useContext(AccountContext);
 
     useEffect(() => {

@@ -70,18 +70,18 @@ const LoginDialog = () => {
         >
             <Component>
             <Container> 
-                    <Title>Synapse-Chat Applicaion</Title>
+                    <Title>Synapse-Chat Application</Title>
                     <StyledList>
                         <ListItem>Welcome to Synapse Chat! Connect with friends and family in real-time with this secure and user-friendly chat application.</ListItem>
                         <ListItem>This application is developed using React.js and Material-UI for the frontend.</ListItem>
                         <ListItem>On the backend, robust capabilities of Node.js and Express.js are leveraged to ensure efficient data processing and smooth server-client interactions. </ListItem>
                         <ListItem> MongoDB serves as the database and for real-time chatting functionality, socket.io is used, enabling instantaneous communication between users.</ListItem>
-                        <ListItem>To access this application sign in with your Google account</ListItem>  
+                        <ListItem>To access this Synapse application sign in with your Google account</ListItem>  
                     </StyledList>
                     </Container>
                         <Box style={{position:'relative'}}>
                         <QRCOde src={qrCodeImage} alt="QR Code" />
-                        <Box style={{position: 'absolute', top: '40%', transform: 'translateX(35%) translateY(-35%)'}}>
+                        <Box style={{position: 'absolute', top: '40%', transform: 'translateX(34%) translateY(-35%)'}}>
                         { showloginButton ?
                             <GoogleLogin
                                 buttonText=""
